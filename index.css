@@ -10,6 +10,30 @@ body{
 
 @media (min-width: 900px) {
 
+	header{
+		position: fixed;
+		width: 20%;
+		background-color: #fff;
+		bottom: 0;
+		right: 0;
+		z-index: 999;
+		margin-bottom: 1%;
+		margin-left: 1%;
+		margin-right: 5%;
+		border-radius: 50px;
+		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	.aboutLink{
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.aboutLinkLink{
+		color: #000;
+		text-decoration: none;
+	}
+
 	.header{
 		margin-left: 10%;
 		margin-top: 10%;
@@ -35,12 +59,12 @@ body{
 	.subtitleLink{
 		padding-left: 2%;
 		line-height: 1.3em;
+		font-size: 32px;
 	}
 
 	.link{
 		color: #E74C3C;
 		text-decoration: none;
-		font-size: 32px;
 	}
 
  	.flex-grid {
