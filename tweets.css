@@ -7,7 +7,31 @@ body{
 }
 
 @media (min-width: 900px) {
+	.tweetsTitle{
+		font-weight: 800;
+		font-size: 96px;
+		line-height: 0.5em;
+	}
+
 	.tweetsGrid{
 		margin-top: 10%;
+		margin-left: 15%;
+		margin-bottom: 10%;
+	}
+
+
+	.twitter-tweet{
+    	box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    	border-radius: 8px;
+	}
+
+	.space{
+		padding-bottom: 5%;
+	}
+
+	.backButton{
+		height: 30px;
+		margin-top: 2%;
+		margin-left: 2%;
 	}
 }
