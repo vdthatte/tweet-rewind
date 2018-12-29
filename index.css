@@ -6,6 +6,140 @@ body{
 
 @media (max-width: 900px) {
 
+	body{
+		padding-bottom: 10%;
+	}
+
+	header{
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		z-index: 999;
+		margin-bottom: 1%;
+		margin-left: 1%;
+		margin-right: 5%;
+		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	.separator{
+		border-bottom-style: solid;
+		border-bottom-width: 3px;
+		border-color: #000;
+		opacity: 0.1;
+		width: 30%;
+		padding: 1%;
+	}
+
+	.twtLogo{
+		height: 84px;
+	}
+
+	.backButton{
+		height: 30px;
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+
+	.aboutHeader{
+		margin-left: 17%;
+	}
+
+	.aboutTitle{
+		font-weight: 700;
+		font-size: 96px;
+		line-height: 1em;
+	}
+
+	.aboutLink{
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.aboutLinkLink{
+		color: #000;
+		text-decoration: none;
+	}
+
+	.header{
+		margin-left: 0%;
+		margin-top: 3%;
+		margin-right: 0%;
+		padding-left: 5%;
+	}
+
+	.title{
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 1.1em;
+	}
+
+	.aboutPageDescription{
+		margin-left: 15%;
+		font-size: 28px;
+		line-height: 1.3em;
+		padding-left: 2%;
+		padding-right: 15%;
+		opacity: 0.5;
+	}
+
+	.titleDescription{
+		font-size: 28px;
+		line-height: 1.3em;
+		padding-left: 0%;
+		opacity: 0.5;
+		width: 90%;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	.subtitleLink{
+		padding-top: 0;
+		padding-left: 0%;
+		line-height: 1em;
+		font-size: 24px;
+	}
+
+	.link{
+		color: #E74C3C;
+		text-decoration: none;
+	}
+
+ 	.flex-grid {
+  		display: flex;	
+  	}
+	
+	.col {
+  		flex: 1;
+  		margin-bottom: 2.5%;
+  		margin-top: 5%;
+  		width: 50%;
+  		background-color: #fff;
+		margin-right: 10%;
+	}
+
+	.grid{
+		margin-top: 0%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+
+	.profilePic{
+		width: 100px;
+		background-color: #000;
+		border-width: 16px;
+		border-style: solid;
+		border-color: #fff;
+		border-radius: 50%;
+		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
+		transition: 0.5s;
+	}
+
+	.profileName{
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 1em;
+	}
+
 }
 
 @media (min-width: 900px) {
@@ -101,11 +235,19 @@ body{
 		padding-left: 0%;
 		line-height: 1em;
 		font-size: 24px;
+		font-weight: 400;
+		border-color: #E74C3C;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 50px;
+		width: 25%;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
 	}
 
 	.link{
 		color: #E74C3C;
-		text-decoration: none;
+		text-decoration: none; 
 	}
 
  	.flex-grid {
