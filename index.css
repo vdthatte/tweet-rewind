@@ -41,12 +41,12 @@ body{
 	}
 
 	.aboutHeader{
-		margin-left: 17%;
+		margin-left: 5%;
 	}
 
 	.aboutTitle{
 		font-weight: 700;
-		font-size: 96px;
+		font-size: 64px;
 		line-height: 1em;
 	}
 
@@ -74,12 +74,15 @@ body{
 	}
 
 	.aboutPageDescription{
-		margin-left: 15%;
-		font-size: 28px;
+		margin-left: 5%;
+		font-size: 26px;
 		line-height: 1.3em;
 		padding-left: 2%;
-		padding-right: 15%;
+		padding-right: 5%;
+		word-wrap: break-word;
+		hyphens: auto;
 		opacity: 0.5;
+		text-align: justify;
 	}
 
 	.titleDescription{
@@ -135,7 +138,7 @@ body{
 	}
 
 	.profileName{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		line-height: 1em;
 	}
