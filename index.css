@@ -35,8 +35,7 @@ body{
 	}
 
 	.twtLogo{
-		height: 96px;
-		line-height: 1em;
+		height: 84px;
 	}
 
 	.backButton{
@@ -67,16 +66,15 @@ body{
 
 	.header{
 		margin-left: 0%;
-		margin-top: 8%;
+		margin-top: 3%;
 		margin-right: 10%;
-		margin-bottom: 5%;
 		padding-left: 5%;
 	}
 
 	.title{
 		font-weight: 700;
-		font-size: 96px;
-		line-height: 1em;
+		font-size: 84px;
+		line-height: 1.1em;
 	}
 
 	.aboutPageDescription{
@@ -89,17 +87,20 @@ body{
 	}
 
 	.titleDescription{
-		font-size: 32px;
+		font-size: 28px;
 		line-height: 1.3em;
 		padding-left: 0%;
 		opacity: 0.5;
 		width: 50%;
+		padding-bottom: 0;
+		padding-top: 0;
 	}
 
 	.subtitleLink{
+		padding-top: 0;
 		padding-left: 0%;
 		line-height: 1em;
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	.link{
@@ -121,14 +122,14 @@ body{
 	}
 
 	.grid{
-		margin-top: 2.5%;
+		margin-top: 0%;
 		margin-left: 10%;
 		margin-bottom: 5%;
 	}
 
 	.profilePic{
 		width: 60%;
-		background-color: #f000;
+		background-color: #000;
 		border-width: 16px;
 		border-style: solid;
 		border-color: #fff;
