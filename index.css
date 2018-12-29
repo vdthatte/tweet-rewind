@@ -25,6 +25,26 @@ body{
 		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.2);
 	}
 
+	.separator{
+		border-bottom-style: solid;
+		border-bottom-width: 3px;
+		border-color: #000;
+		opacity: 0.1;
+		width: 15%;
+		padding: 1%;
+	}
+
+	.twtLogo{
+		height: 96px;
+		line-height: 1em;
+	}
+
+	.backButton{
+		height: 30px;
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+
 	.aboutLink{
 		font-size: 18px;
 		font-weight: 400;
@@ -36,22 +56,22 @@ body{
 	}
 
 	.header{
-		margin-left: 10%;
-		margin-top: 10%;
+		margin-left: 0%;
+		margin-top: 8%;
 		margin-right: 10%;
 		margin-bottom: 5%;
 		padding-left: 5%;
 	}
 
 	.title{
-		font-weight: 800;
+		font-weight: 700;
 		font-size: 96px;
 		line-height: 1em;
 	}
 
 	.aboutPageDescription{
 		margin-left: 15%;
-		font-size: 32px;
+		font-size: 28px;
 		line-height: 1.3em;
 		padding-left: 2%;
 		padding-right: 10%;
@@ -61,15 +81,15 @@ body{
 	.titleDescription{
 		font-size: 32px;
 		line-height: 1.3em;
-		padding-left: 2%;
-		padding-right: 10%;
+		padding-left: 0%;
 		opacity: 0.5;
+		width: 50%;
 	}
 
 	.subtitleLink{
-		padding-left: 2%;
-		line-height: 1.3em;
-		font-size: 32px;
+		padding-left: 0%;
+		line-height: 1em;
+		font-size: 28px;
 	}
 
 	.link{
