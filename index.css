@@ -45,6 +45,16 @@ body{
 		margin-left: 2%;
 	}
 
+	.aboutHeader{
+		margin-left: 17%;
+	}
+
+	.aboutTitle{
+		font-weight: 700;
+		font-size: 96px;
+		line-height: 1em;
+	}
+
 	.aboutLink{
 		font-size: 18px;
 		font-weight: 400;
@@ -74,7 +84,7 @@ body{
 		font-size: 28px;
 		line-height: 1.3em;
 		padding-left: 2%;
-		padding-right: 10%;
+		padding-right: 15%;
 		opacity: 0.5;
 	}
 
