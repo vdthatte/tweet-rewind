@@ -2,13 +2,13 @@
 
 body{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	background-color: #0F8D53;
 }
 
 @media (max-width: 900px) {
 
 	body{
 		padding-bottom: 10%;
-		background-color: #0F8D53;
 	}
 
 	header{
@@ -133,7 +133,7 @@ body{
 	.profilePic{
 		width: 100px;
 		background-color: #000;
-		border-width: 16px;
+		border-width: 12px;
 		border-style: solid;
 		border-color: #fff;
 		border-radius: 50%;
