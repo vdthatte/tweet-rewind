@@ -8,6 +8,7 @@ body{
 
 	body{
 		padding-bottom: 10%;
+		background-color: #0F8D53;
 	}
 
 	header{
@@ -153,12 +154,12 @@ body{
 
 	header{
 		position: fixed;
-		bottom: 0;
+		top: 0;
 		right: 0;
 		z-index: 999;
-		margin-bottom: 1%;
+		margin-top: 1%;
 		margin-left: 1%;
-		margin-right: 5%;
+		margin-right: 1%;
 		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.2);
 	}
 
@@ -210,8 +211,10 @@ body{
 
 	.title{
 		font-weight: 700;
-		font-size: 84px;
-		line-height: 1.1em;
+		font-size: 96px;
+		line-height: 1.0em;
+		color: #fff;
+		text-shadow: 3px 3px #ff0000;
 	}
 
 	.aboutPageDescription{
@@ -220,17 +223,18 @@ body{
 		line-height: 1.3em;
 		padding-left: 2%;
 		padding-right: 15%;
-		opacity: 0.5;
 	}
 
 	.titleDescription{
 		font-size: 28px;
 		line-height: 1.3em;
 		padding-left: 0%;
-		opacity: 0.5;
 		width: 50%;
 		padding-bottom: 0;
 		padding-top: 0;
+		color: #fff;
+		width: 30%;
+		text-shadow: 2px 2px #000;
 	}
 
 	.subtitleLink{
@@ -239,17 +243,20 @@ body{
 		line-height: 1em;
 		font-size: 24px;
 		font-weight: 400;
-		border-color: #E74C3C;
+		border-color: #fff;
 		border-style: solid;
-		border-width: 1px;
+		border-width: 2px;
 		border-radius: 50px;
 		width: 25%;
 		padding-top: 1.5%;
 		padding-bottom: 1.5%;
+		color: #fff;
+		text-align: center;
+		text-shadow: 2px 2px #000;
 	}
 
 	.link{
-		color: #E74C3C;
+		color: #fff;
 		text-decoration: none; 
 	}
 
@@ -262,7 +269,6 @@ body{
   		margin-bottom: 2.5%;
   		margin-top: 5%;
   		width: 50%;
-  		background-color: #fff;
 		margin-right: 10%;
 	}
 
@@ -287,6 +293,8 @@ body{
 		font-size: 36px;
 		font-weight: 700;
 		line-height: 1em;
+		color: #fff;
+		text-shadow: 3px 3px #ff0000;
 	}
 
 	.profilePic:hover{
