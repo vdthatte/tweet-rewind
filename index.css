@@ -70,8 +70,10 @@ body{
 
 	.title{
 		font-weight: 700;
-		font-size: 48px;
+		font-size: 64px;
 		line-height: 1.1em;
+		color: #fff;
+		text-shadow: 3px 3px #ff0000;
 	}
 
 	.aboutPageDescription{
@@ -90,10 +92,12 @@ body{
 		font-size: 28px;
 		line-height: 1.3em;
 		padding-left: 0%;
-		opacity: 0.5;
+		opacity: 1.0;
 		width: 90%;
 		padding-bottom: 0;
 		padding-top: 0;
+		color: #fff;
+		text-shadow: 3px 3px #000;
 	}
 
 	.subtitleLink{
@@ -117,7 +121,6 @@ body{
   		margin-bottom: 2.5%;
   		margin-top: 5%;
   		width: 50%;
-  		background-color: #fff;
 		margin-right: 10%;
 	}
 
@@ -134,7 +137,7 @@ body{
 		border-style: solid;
 		border-color: #fff;
 		border-radius: 50%;
-		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.3);
 		transition: 0.5s;
 	}
 
@@ -142,6 +145,8 @@ body{
 		font-size: 22px;
 		font-weight: 700;
 		line-height: 1em;
+		color: #fff;
+		text-shadow: 3px 3px #000;
 	}
 
 }
@@ -239,24 +244,23 @@ body{
 
 	.subtitleLink{
 		padding-top: 0;
-		padding-left: 0%;
+		margin-left: 2%;
 		line-height: 1em;
-		font-size: 24px;
+		font-size: 22px;
 		font-weight: 400;
 		border-color: #fff;
 		border-style: solid;
 		border-width: 2px;
-		border-radius: 50px;
-		width: 25%;
-		padding-top: 1.5%;
-		padding-bottom: 1.5%;
-		color: #fff;
+		border-radius: 8px;
+		width: 22%;
+		padding-top: 1%;
+		padding-bottom: 1%;
 		text-align: center;
-		text-shadow: 2px 2px #000;
+		background-color: #fff;
 	}
 
 	.link{
-		color: #fff;
+		color: #000;
 		text-decoration: none; 
 	}
 
@@ -285,7 +289,7 @@ body{
 		border-style: solid;
 		border-color: #fff;
 		border-radius: 50%;
-		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.3);
 		transition: 0.5s;
 	}
 
