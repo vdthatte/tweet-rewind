@@ -15,6 +15,7 @@ body{
 		font-size: 48px;
 		line-height: 1em;
 		margin-top: 20%;
+		margin-bottom: 10%;
 		width: 100%;
 		margin-left: 0%;
 		color: #fff;
@@ -26,7 +27,19 @@ body{
 	}
 
 	.twitter-tweet{
+    	border-radius: 10px;
+    	border-width: 5px;
+    	border-style: solid;
+    	border-color: #fff;
+    	background-color: #fff;
+    	padding-top: 3%;
+    	padding-bottom: 3%;
+    	box-shadow: 0px 50px 50px 0px rgba(0, 0, 0, 0.3);
 
+	}
+
+	.space{
+		padding-bottom: 15%;
 	}
 
 	.backButton{
@@ -52,21 +65,25 @@ body{
 		width: 40%;
 		margin-left: 0%;
 		color: #fff;
-		text-shadow: 6px 6px #ff0000;
+		text-shadow: 3px 3px #ff0000, 0 2px 0 #c9c9c9, 6px 6px #FFFF00;
 	}
 
 	.tweetsGrid{
 		margin-top: 10%;
-		margin-left: 50%;
+		margin-left: 55%;
 		margin-bottom: 10%;
 	}
 
 	.twitter-tweet{
 /*    	box-shadow: 15px 15px 0px 0px rgba(255, 0, 0, 1);*/
-    	border-radius: 30px;
+    	border-radius: 22px;
     	border-width: 25px;
     	border-style: solid;
     	border-color: #fff;
+    	background-color: #fff;
+    	padding-top: 3%;
+    	padding-bottom: 3%;
+    	box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.3);
 	}
 
 	.space{
@@ -82,6 +99,8 @@ body{
 		line-height: 1.1em;
 		color: #fff;
 		text-shadow: 3px 3px #ff0000;
+		text-shadow: 3px 3px #ff0000, 0 1px 0 #c9c9c9, 4px 4px #FFFF00;
+		text-decoration: underline;
 	}
 
 	.header{

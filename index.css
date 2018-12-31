@@ -149,7 +149,7 @@ body{
 		font-weight: 700;
 		line-height: 1em;
 		color: #fff;
-		text-shadow: 2px 2px #000;
+		text-shadow: 3px 3px #ff0000, 0 1px 0 #c9c9c9, 4px 4px #FFFF00;
 	}
 
 }
@@ -222,7 +222,7 @@ body{
 		font-size: 128px;
 		line-height: 1.0em;
 		color: #fff;
-		text-shadow: 4px 4px #ff0000, 0 2px 0 #c9c9c9, 8px 8px #FFFF00;
+		text-shadow: 3px 3px #ff0000, 0 2px 0 #c9c9c9, 8px 8px #FFFF00;
 
 
 	}
@@ -303,6 +303,7 @@ body{
 		line-height: 1em;
 		color: #fff;
 		text-shadow: 3px 3px #ff0000, 0 2px 0 #c9c9c9;
+		text-shadow: 2px 2px #ff0000, 0 1px 0 #c9c9c9;
 	}
 
 	.profilePic:hover{
