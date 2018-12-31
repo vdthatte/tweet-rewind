@@ -2,27 +2,44 @@ body{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 48px;
 	color: #fff;
+	max-width: 100%;
 }
 
 @media (max-width: 900px) {
 	body{
-		background-color: #f9f9f9;
+
 	}
 
 	.tweetsTitle{
 		font-weight: 800;
-		font-size: 64px;
+		font-size: 48px;
 		line-height: 1em;
-		margin-top: 10%;
+		margin-top: 20%;
 		width: 100%;
 		margin-left: 0%;
 		color: #fff;
 		text-shadow: 1px 1px #ff0000;
 	}
 
+	a{
+		text-decoration: none;
+	}
+
 	.twitter-tweet{
 
 	}
+
+	.backButton{
+		top: 0;
+		font-size: 32px;
+		margin-top: 3%;
+		margin-left: 3%;
+		line-height: 1.1em;
+		color: #fff;
+		text-shadow: 3px 3px #ff0000;
+		text-decoration: none;
+	}
+
 }
 
 @media (min-width: 900px) {
